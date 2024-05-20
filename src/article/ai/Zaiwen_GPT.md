@@ -1,8 +1,10 @@
 ---
 title: 在问-如何在国内使用GPT
-date: 2024/05/01
+date: 2024-05-01
 categories:
-- AI
+- AI对话
+tags:
+- 在问
 ---
 
 <https://zaiwen.top>

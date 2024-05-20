@@ -1,6 +1,6 @@
 ---
 title: Nginx-组成模块认识
-date: 2024/05/03
+date: 2024-05-10
 categories:
 - 服务器
 ---

@@ -1,6 +1,6 @@
 ---
 title: 点亮树莓派
-date: 2024/05/14
+date: 2024-05-10
 categories:
 - 其他
 ---

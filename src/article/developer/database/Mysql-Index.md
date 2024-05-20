@@ -1,6 +1,6 @@
 ---
 title: Mysql索引
-date: 2024/05/14
+date: 2024-05-06
 categories:
 - 数据库
 ---

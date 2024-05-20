@@ -1,8 +1,11 @@
 ---
-title: ComfyUI绘画-使用Controlnet模型控制出图
-date: 2024/05/03
+title: AI绘画-在ComfyUI中如何使用Controlnet
+date: 2024-05-03
 categories:
-- AI
+- AI绘画
+tags:
+- ComfyUI
+- Controlnet
 ---
 ## 什么是Controlnet
 

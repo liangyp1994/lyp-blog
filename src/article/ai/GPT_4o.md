@@ -1,8 +1,10 @@
 ---
 title: 你好 GPT-4o
-date: 2024/05/14
+date: 2024-05-14
 categories:
-- AI
+- AI对话
+tags:
+- GPT-4o
 ---
 
 ## 介绍

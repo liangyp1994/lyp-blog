@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://lianyp.fun",
   author: {
-    name: "liangyp",
+    name: "梁小道",
     url: "https://lianyp.fun",
   },
   iconAssets: "fontawesome-with-brands",
@@ -19,26 +19,19 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
   // 页脚
-  footer: "默认页脚",
+  footer:
+    "ICP证： <a href='http://gxt.jiangxi.gov.cn/'>赣ICP备2023012526号</a>",
   displayFooter: true,
   // 博客相关
   blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
+    description: "简单而朴实的一名程序员",
+    intro: "/introduce.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Dingding: "https://example.com",
-      Email: "mailto:info@example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Steam: "https://example.com",
-      Wechat: "https://example.com",
-      Zhihu: "https://example.com",
+      GitHub: "https://github.com/liangyp1994",
+      BiliBili: "https://space.bilibili.com/393713804",
+      Gitee: "https://gitee.com/nuy",
+      Qzone: "https://2267841523.qzone.qq.com/",
+      Zhihu: "https://www.zhihu.com/people/java-97-78-81",
     },
   },
   // 多语言配置
