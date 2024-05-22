@@ -19,7 +19,7 @@ public ThreadPoolExecutor(int corePoolSize,
 
 ```
 
-1. corePoolSize 核心线程数
+- corePoolSize 核心线程数
 核心线程会一直存活，核心成员一直在，及时没有任何业务需求；
 当线程数小于核心线程数，即使有空闲线程，线程池也会创建新的线程进行处理
 参数allowCoreThreadTimeout=true（默认false），核心线程会超时关闭
@@ -34,15 +34,15 @@ IO密集型：corePoolSize = CPU核数 * 2
 
 > 我的服务器是 2核 内存使用较多 属于 IO密集型，故 corePoolSize=3
 
-2. maximumPoolSize 最大线程数
+- maximumPoolSize 最大线程数
 
 设置最大上限，当线程数=最大线程数，将会执行拒绝策略，默认的话该值为Integer.MAX_VALUE
 实际项目中应根据使用场景灵活调整
 
-3. keepAliveTime 空闲时长
-4. workQueue 任务队列
-5. threadFactory 创建线程的工厂
-6. handler 拒绝处理器
+- keepAliveTime 空闲时长
+- workQueue 任务队列
+- threadFactory 创建线程的工厂
+- handler 拒绝处理器
 
 ## 任务执行流程
 
