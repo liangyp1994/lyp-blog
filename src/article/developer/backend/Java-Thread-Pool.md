@@ -1,8 +1,7 @@
 ---
 title: Java线程池
 date: 2024-05-04
-categories:
-- 后端
+categories: 后端
 ---
 
 ## ThreadPoolExecutor
