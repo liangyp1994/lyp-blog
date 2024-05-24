@@ -1,7 +1,6 @@
 ---
 title: 网站介绍
 description: 讲述网站的背景由来以及包含了哪些内容。
-sidebar: false
 article: false
 ---
 
