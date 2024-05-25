@@ -63,3 +63,14 @@ SyntaxError: Element is missing end tag.
 结果
 
 就是本文章内的一个 `<el-dialog>` 没有用格式框住，导致它被识别为一个html标签，然后构建到了 html 中。为什么开发环境不会有问题，那是因为 `.temp` 文件夹下并不是html文件 所以不会有问题。
+
+- 记 Github推送失败
+
+考虑到可能网络未经过本地的代理，故手动指定 Git 代理
+
+```bash
+git config --global http.proxy http://127.0.0.1:8001 
+git config --global https.proxy http://127.0.0.1:8001
+# 我的clash在7890上系统代理
+
+```
