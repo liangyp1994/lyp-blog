@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://lianyp.fun/sitemap.xml
+Sitemap: https://lianyp.fun/lyp-blog/sitemap.xml
