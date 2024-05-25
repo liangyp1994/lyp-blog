@@ -71,6 +71,6 @@ SyntaxError: Element is missing end tag.
 ```bash
 git config --global http.proxy http://127.0.0.1:8001 
 git config --global https.proxy http://127.0.0.1:8001
-# 我的clash在7890上系统代理
+# 开始菜单搜索代理，查看当前本地使用的代理地址即可
 
 ```
