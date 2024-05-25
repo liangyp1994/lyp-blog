@@ -18,9 +18,6 @@ export default hopeTheme({
   navbar,
   // 侧边栏
   sidebar,
-  // 页脚
-  footer:
-    "ICP证： <a href='http://gxt.jiangxi.gov.cn/'>赣ICP备2023012526号</a>",
   displayFooter: true,
   // 博客相关
   blog: {
