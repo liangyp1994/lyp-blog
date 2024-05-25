@@ -1,8 +1,7 @@
 ---
 title: 几款开源的Markdown工具
 date: 2024-05-11
-categories:
-- 其他
+categories: 其他
 ---
 
 这儿有一些广受好评的开源Markdown编辑器：

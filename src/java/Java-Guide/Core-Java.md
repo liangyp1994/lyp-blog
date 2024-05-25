@@ -1,6 +1,7 @@
 ---
 title: Java基础语法
 article: false
+order: 1
 description: 代码尽头皆为空,学无止境乃微风。编程途中诡辩多,唯有小道可成功。
 ---
 

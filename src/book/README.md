@@ -10,6 +10,5 @@ head:
       content: 小道空间,梁小道,轻博客,开源博客,博客系统,vuepress-theme-hope 主题
 ---
 
-- [Java入门教程](../java/Java-Guide/)
-- [Java进阶教程](../java/Java-Advanced/)
-- [数据库系统](../database/Database-Guide/)
+- [Java教程](../java/)
+- [数据库系统](../database/)

@@ -1,23 +1,19 @@
 ---
-
 title: 开发过程问题记录
-
 date: 2024-05-23
-
 categories: 其他
-
 ---
 
 
 
 ## 前端
 
-- **记 高德地图中输入提示失效问题：**
+- 记 高德地图中输入提示失效问题
 
 代码截取
 
 ```html
-    <el-dialog
+<el-dialog
       title="设备定位"
       :visible.sync="openLocation"
       width="800px"
@@ -26,9 +22,10 @@ categories: 其他
       <Search></Search>
       <MapComponent style="height: 400px"></MapComponent>
     </el-dialog>
+    
 ```
 
-描述：其中 `Search` 组件为高德地图的搜索框组件，当我把这个组件放到 <el-dialog> 弹窗内发现 输入提示未显示。
+描述：其中 `Search` 组件为高德地图的搜索框组件，当我把这个组件放到 `<el-dialog>` 弹窗内发现 输入提示未显示。
 
 解决：通过添加z-index 样式
 
@@ -63,3 +60,6 @@ SyntaxError: Element is missing end tag.
 1. 创建一个新的分支，防止代码丢失
 2. 修复后再合并到master
   
+结果
+
+就是本文章内的一个 `<el-dialog>` 没有用格式框住，导致它被识别为一个html标签，然后构建到了 html 中。为什么开发环境不会有问题，那是因为 `.temp` 文件夹下并不是html文件 所以不会有问题。

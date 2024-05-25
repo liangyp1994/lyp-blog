@@ -1,6 +1,7 @@
 ---
 title: Java中的字符串
 article: false
+order: 2
 description: 在 Java 中，字符串是一种表示文本数据的数据类型，它是不可变的，也就是说一旦被创建，就无法改变其内容。Java 中的字符串是通过 `java.lang.String` 类来表示和操作的。
 ---
 

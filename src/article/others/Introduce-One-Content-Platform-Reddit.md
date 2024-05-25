@@ -1,8 +1,7 @@
 ---
 title: 介绍一款国外的内容平台-Reddit
 date: 2024-05-12
-categories:
-- 其他
+categories: 其他
 ---
 
 ## Reddit 开发者平台

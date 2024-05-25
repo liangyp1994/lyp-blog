@@ -1,8 +1,7 @@
 ---
 title: 几款开源的图床工具
 date: 2024-05-11
-categories:
-- 其他
+categories: 其他
 ---
 
 以下是几个广受好评的开源图床工具：
