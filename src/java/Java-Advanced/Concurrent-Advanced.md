@@ -1,7 +1,7 @@
 ---
 title: Java中的并发编程
 article: false
-order: 1
+order: 2
 description: Java中的并发编程是指通过多线程来实现并发执行的编程方式。在Java中，可以通过`java.util.concurrent`包提供的类来实现并发编程，以便处理多个任务同时执行的情况。
 ---
 
@@ -218,29 +218,6 @@ class MyThread implements Runnable {
 比如 在进行IO操作的时候，等待过程中进行CPU切换，从而同时做多件事情。
 
 ### 死锁
-
-### 什么是线程池
-
-### 线程池的使用
-
-结合实际场景配置线程池的参数：
-
-- 核心线程数
-它是一直存活在线程池中的，可以看作是全职员工，可以通过配置 allowCoreThreadTimeout=true 让核心线程超时关闭。
-
-1. 如果是执行CPU密集型的任务，可以考虑设置较少的核心线程数；如果是执行I/O密集型的任务，可以考虑设置较多的核心线程数。IO是需要等待的，CPU会摸鱼，可以增加线程数让它不要那么闲
-通用公式：
-
-```text
-CPU密集型：corePoolSize = CPU核数 + 1
-
-IO密集型：corePoolSize = CPU核数 * 2
-```
-
-- 最大线程数
-
-1. 不要使用默认的值，避免资源耗尽和系统崩溃，根据实际情况：系统的CPU和内存资源来确定，
-2.
 
 -
 
