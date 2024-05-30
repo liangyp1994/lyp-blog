@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "vuepress-vite build src",
-    "clean-dev": "vuepress-vite dev src --port 5172 --clean-cache",
-    "dev": "vuepress-vite dev src --port 5172 --debug ",
+    "clean-dev": "vuepress-vite dev src --port 5175 --clean-cache",
+    "dev": "vuepress-vite dev src --port 5175 --debug ",
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
